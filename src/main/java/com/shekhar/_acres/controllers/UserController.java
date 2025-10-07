@@ -20,7 +20,7 @@ import com.shekhar._acres.services.UserService;
 
 @RestController
 @RequestMapping("99acers")
-@CrossOrigin("*")
+@CrossOrigin(origins = {"https://nine9aresfe.onrender.com", "http://localhost:3000"})
 public class UserController {
 
 	@Autowired
