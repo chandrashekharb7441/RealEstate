@@ -18,7 +18,7 @@ import com.shekhar._acres.models.Flats;
 import com.shekhar._acres.services.AdminService;
 
 @RestController
-@RequestMapping("99acers")
+@RequestMapping("99acres")
 @CrossOrigin(origins = {"https://nine9aresfe.onrender.com", "http://localhost:3000"})
 public class AdminController {
 	
