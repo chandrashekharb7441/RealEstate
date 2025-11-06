@@ -8,6 +8,7 @@ import jakarta.persistence.Id;
 import lombok.Data;
 
 @Entity
+@Table(name = "users")	
 @Data
 public class User {
 	
